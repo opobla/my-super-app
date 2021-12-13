@@ -8,7 +8,7 @@ PORT = os.environ["PORT"]
 @app.route('/hello')
 def hello_world():
     NOMBRE=os.environ.get("NOMBRE", "Sin nombre")
-    return f"Hola Mundo, soy Python!, y mi variable NOMBRE={NOMBRE}"
+    return f"Hola Mundial, soy Python!, y mi variable NOMBRE={NOMBRE}"
 
 @app.route('/bye')
 def bye_world():
